@@ -1,11 +1,5 @@
-# zsh Configuration
+# Zsh Installation
 
-### Usage
+This script will install oh-my-zsh for you.
 
-Install zsh before you start.
-
-```
-git clone https://github.com/bitmingw/zsh.conf.git
-cd zsh.conf
-./INSTALL.sh
-```
+You must have zsh installed on the system beforehand.

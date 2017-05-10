@@ -1,13 +1,5 @@
-# spacemacs Configuration
+# Emacs Installation
 
-### Before Started
+This script will install spacemacs for you.
 
-1. Install emacs (version >= 24.4)
-
-### Usage
-
-```
-git clone https://github.com/bitmingw/emacs.conf.git
-cd emacs.conf
-./INSTALL.sh
-```
+emacs (version >= 24.4) is required.

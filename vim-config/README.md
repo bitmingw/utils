@@ -1,14 +1,6 @@
-# Vim Configuration
+# Vim Installation
 
 Automatically generate `.vimrc` file and download vim packages.
-
-### Usage
-
-```bash
-git clone https://github.com/bitmingw/vim.conf.git
-cd vim.conf
-./INSTALL.sh
-```
 
 ### Installed Packages
 
@@ -25,7 +17,7 @@ cd vim.conf
 - vim-indent-guides (indent lines)
 - vim-javascript (javascript helper)
 
-### vim Build Requirement
+### Vim Build Requirement
 
 You need at least one of those package:
 
