@@ -39,6 +39,7 @@ values."
      helm
      auto-completion
      better-defaults
+     c-c++
      emacs-lisp
      git
      markdown
