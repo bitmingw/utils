@@ -42,6 +42,8 @@ values."
      c-c++
      emacs-lisp
      git
+     (go :variables
+         go-tab-width 4)
      markdown
      ;; org
      python
