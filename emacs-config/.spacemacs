@@ -39,11 +39,11 @@ values."
      helm
      auto-completion
      better-defaults
-     c-c++
+     ;; c-c++
      emacs-lisp
      git
-     (go :variables
-         go-tab-width 4)
+     ;; (go :variables
+     ;;     go-tab-width 4)
      markdown
      ;; org
      python
