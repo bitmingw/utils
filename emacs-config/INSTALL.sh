@@ -14,6 +14,7 @@ echo "Configuring spacemacs..."
 sleep 1
 
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+cd ~/.emacs.d && git checkout master
 chown -R $(whoami) ~/.emacs.d
 chgrp -R $(whoami) ~/.emacs.d
 

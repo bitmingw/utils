@@ -2,6 +2,7 @@
 
 echo "Copying settings.json..."
 sleep 1
+mkdir -p "$HOME/.config/Code/User"
 cp settings.json "$HOME/.config/Code/User/settings.json"
 
 echo "Installing extensions..."
