@@ -1,0 +1,13 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.startupEditor": "none",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "extensions.ignoreRecommendations": true
+}

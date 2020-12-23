@@ -1,6 +1,14 @@
 #!/bin/bash
 
-# vim configuration tool by Ming Wen
+if [ ! which vim &> /dev/null ]; then
+    echo "vim is not installed in the system"
+    exit 1
+fi
+
+if [ ! which git &> /dev/null ]; then
+    echo "git is not installed in the system"
+    exit 1
+fi
 
 echo "Configuring vim..."
 sleep 1
@@ -67,7 +75,7 @@ fi
 cd ../..
 
 # Install the packages for current user
-echo "Copy files for current user $(whoami)"
+echo "Copying files for current user $(whoami)"
 if [[ "$(whoami)" == "root" ]]; then
     cp -rf .vim .vimrc $HOME
 else
